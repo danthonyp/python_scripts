@@ -42,8 +42,8 @@ def ssh_to_vm(hostname, username, password, command):
 if __name__ == "__main__":
     # List of VMs to connect to
     vm_list = [
-        {"hostname": "192.168.68.126", "username": "pt"},
-        {"hostname": "192.168.68.132", "username": "root"},
+        {"hostname": "x.x.x.x", "username": "pt"},
+        {"hostname": "x.x.x.x", "username": "root"},
     ]
     
     # Prompt for the SSH password (assuming the same password for all VMs)
