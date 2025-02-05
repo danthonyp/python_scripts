@@ -4,7 +4,7 @@ vm_pass = getpass("Enterrootpassword: ")
 
 ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy)
-ssh_client.connect(hostname="192.168.68.132", username='root', password=vm_pass)
+ssh_client.connect(hostname="x.x.x.x", username='root', password=vm_pass)
 print("Connected successfully!")
 
 stdin, stdout, stderr = ssh_client.exec_command( 'ping -c 2 8.8.8.8')
